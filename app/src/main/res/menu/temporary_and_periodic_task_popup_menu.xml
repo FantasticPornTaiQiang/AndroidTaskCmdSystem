@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/delete_this_task"
+        android:orderInCategory="1"
+        android:title="删除该项任务"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/change_task_state"
+        android:orderInCategory="2"
+        android:title="改变任务状态"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/copy_this_task"
+        android:orderInCategory="3"
+        android:title="复制该项任务"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/cut_this_task"
+        android:orderInCategory="4"
+        android:title="剪切该项任务"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/insert_a_task"
+        android:orderInCategory="5"
+        android:title="插入一项任务"
+        app:showAsAction="never"
+        />
+
+</menu>

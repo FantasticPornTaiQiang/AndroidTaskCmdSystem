@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/save_all_change_button"
+        android:orderInCategory="1"
+        android:title="保存所有改动"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/sort_task_list_button"
+        android:orderInCategory="2"
+        android:title="任务清单排序"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/import_task_list_button"
+        android:orderInCategory="3"
+        android:title="导入任务清单"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/export_task_list_button"
+        android:orderInCategory="4"
+        android:title="导出任务清单"
+        app:showAsAction="never"
+        />
+</menu>

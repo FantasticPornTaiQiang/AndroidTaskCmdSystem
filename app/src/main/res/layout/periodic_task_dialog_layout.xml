@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设 置 周 期 任 务"
+        android:gravity="center"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:paddingTop="7dp"
+        android:paddingBottom="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="任务名称"
+            android:textSize="20sp"
+            android:paddingLeft="8dp"/>
+
+        <EditText
+            android:id="@+id/periodic_task_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="任务名称"
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="执行日期"
+            android:textSize="20sp"
+            android:paddingLeft="8dp"/>
+
+        <TextView
+            android:id="@+id/periodic_task_start_date_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="点击选择执行日期"
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:layout_marginLeft="10dp"
+            style="@style/Widget.AppCompat.EditText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="重复次数"
+                android:textSize="20sp"
+                android:paddingLeft="8dp"/>
+
+            <EditText
+                android:id="@+id/periodic_task_repetition_times_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="次数"
+                android:textSize="20sp"
+                android:singleLine="true"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="重复周期"
+                android:textSize="20sp"
+                android:paddingLeft="8dp"/>
+
+            <EditText
+                android:id="@+id/periodic_task_repetition_period_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="天数"
+                android:textSize="20sp"
+                android:singleLine="true"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="详细描述"
+            android:textSize="20sp"
+            android:paddingLeft="8dp"/>
+
+        <EditText
+            android:id="@+id/periodic_task_detail_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="详细描述"
+            android:minLines="5"
+            android:textSize="20sp"
+            android:layout_marginLeft="6dp"
+            android:gravity="start"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
